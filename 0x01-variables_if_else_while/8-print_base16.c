@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - Prints all numbers of base 16 in lowercase 
+ * main - a program that prints all numbers of base 16 in lowercase using putchar
  *
  * Return: return 0 
  */
