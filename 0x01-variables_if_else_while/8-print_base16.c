@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /**
- * main - a program that prints all numbers of base 16 in lowercase using putchar
+ * main - a program that print letters and numbers using putchar
  *
- * Return: return 0 
+ * Return: return 0
  */
 int main(void)
 {
