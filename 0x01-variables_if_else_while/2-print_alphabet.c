@@ -1,33 +1,17 @@
+#include <stdlib.h>
+#include <time.h>
 #include <stdio.h>
-
 /**
- * main - Prints numbers between 00 to 99.
+ * main - a program that prints alphabets
  *
- * Return: Always 0 (Success)
+ * Return: return 0
  */
 int main(void)
 {
-	int i, e;
-
-	i = 48;
-	e = 48;
-
-	while (e < 58)
+	char ch;
+	for (ch = 'a'; ch <= 'z'; ch++)
 	{
-		i = 48;
-		while (i < 58)
-		{
-			putchar(e);
-			putchar(i);
-			if (i == 57 && e == 57)
-			{
-				break;
-			}
-			putchar(',');
-			putchar(' ');
-			i++;
-		}
-		e++;
+		putchar(ch);
 	}
 	putchar('\n');
 	return (0);
