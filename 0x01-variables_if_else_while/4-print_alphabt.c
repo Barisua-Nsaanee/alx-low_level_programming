@@ -1,9 +1,10 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
 /**
- * main - a program that prints all the alphabets except q and e
- * 
+ * main - a program that prints alphabets except q and e
+ *
  * Return: return 0
  */
 int main(void)
@@ -15,10 +16,10 @@ int main(void)
 		if (ch == 'q' || ch == 'e')
 		{
 		}
-	else
-	{
-		putchar(ch);
-	}
+		else
+		{
+			putchar(ch);
+		}
 	}
 	putchar('\n');
 	return (0);
