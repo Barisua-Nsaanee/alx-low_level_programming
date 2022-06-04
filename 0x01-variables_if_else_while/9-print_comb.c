@@ -1,27 +1,24 @@
 #include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
 /**
- * main - a program that prints letters amd numbers using putchar
- *
- * Return: return 0 
+ * main - main block
+ * Description: prints all single digit numbers of base 10
+ * starting from 0, followed by a new line.
+ * Return: 0
  */
 int main(void)
 {
-	int n;
+	int c = 0;
 
-	for (n = 0; n < 10; n++)
+	while (c < 10)
 	{
-		putchar(n + '0');
-
-		if (n == 9)
-		{
-		}
-		else
+		putchar(48 + c);
+		if (c != 9)
 		{
 			putchar(',');
 			putchar(' ');
 		}
+		c++;
 	}
 	putchar('\n');
 	return (0);
