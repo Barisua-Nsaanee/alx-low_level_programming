@@ -1,10 +1,8 @@
 #include "main.h"
 
 /**
- * reset_to_98 - main function
- * @n: Pointer with the address value 
- *
- * Description: This function takes a point to an int with the value 98
+ * reset_to_98 - updates value it points to 98
+ * @n: pointer to an int
  */
 
 void reset_to_98(int *n)
