@@ -1,19 +1,13 @@
-#include "lists.h"
+#include <stdio.h>
+
+void theHare(void)__attribute__((constructor));
 
 /**
- * free_list - frees a list
- * @head: head of the linked list.
- * Return: no return.
+ * theHare - prints You're beat! and yet, you must allow,\n
+ * I bore my house upon my back!\n before the main function is executed.
  */
-
-void free_list(list_t *head)
+void theHare(void)
 {
-	list_t *current;
-
-	while ((current = head) != NULL)
-	{
-		head = head->next;
-		free(current->str);
-		free(current);
-	}
+	printf("You're beat! and yet, you must allow,\n");
+	printf("I bore my house upon my back!\n");
 }
